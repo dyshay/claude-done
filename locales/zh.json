@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - 任务完成",
+    "title_fallback": "Claude Code - 任务完成",
+    "message": "Claude已完成并等待您的回复",
+    "test_title": "claude-done - 测试通知",
+    "test_message": "通知功能正常运行！"
+  },
+  "setup": {
+    "already_configured": "claude-done钩子已经配置完成。",
+    "success": "claude-done钩子已添加到Claude Code设置中。",
+    "error": "无法配置钩子：{{error}}"
+  },
+  "uninstall": {
+    "success": "claude-done钩子已从Claude Code设置中移除。",
+    "not_found": "在Claude Code设置中未找到claude-done钩子。",
+    "error": "无法移除钩子：{{error}}"
+  },
+  "config": {
+    "saved": "配置已保存。",
+    "current": "当前配置："
+  },
+  "cli": {
+    "description": "当Claude Code完成任务时发送原生操作系统通知",
+    "usage": "用法",
+    "hook_mode": "钩子模式：从stdin读取JSON，显示通知",
+    "setup": "配置Claude Code钩子",
+    "test": "发送测试通知",
+    "config": "查看或更改配置",
+    "uninstall": "从Claude Code设置中移除钩子",
+    "help": "显示帮助信息",
+    "version_flag": "显示版本号",
+    "config_options": "配置选项",
+    "config_lang": "设置语言 (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "启用/禁用通知声音",
+    "config_show": "显示当前配置"
+  }
+}

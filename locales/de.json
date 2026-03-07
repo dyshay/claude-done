@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - Aufgabe abgeschlossen",
+    "title_fallback": "Claude Code - Aufgabe abgeschlossen",
+    "message": "Claude ist fertig und wartet auf Ihre Antwort",
+    "test_title": "claude-done - Testbenachrichtigung",
+    "test_message": "Benachrichtigungen funktionieren korrekt!"
+  },
+  "setup": {
+    "already_configured": "Die claude-done Hooks sind bereits konfiguriert.",
+    "success": "Die claude-done Hooks wurden zu den Claude Code Einstellungen hinzugefuegt.",
+    "error": "Hooks konnten nicht konfiguriert werden: {{error}}"
+  },
+  "uninstall": {
+    "success": "Die claude-done Hooks wurden aus den Claude Code Einstellungen entfernt.",
+    "not_found": "Keine claude-done Hooks in den Claude Code Einstellungen gefunden.",
+    "error": "Hooks konnten nicht entfernt werden: {{error}}"
+  },
+  "config": {
+    "saved": "Konfiguration gespeichert.",
+    "current": "Aktuelle Konfiguration:"
+  },
+  "cli": {
+    "description": "Native OS-Benachrichtigungen wenn Claude Code eine Aufgabe abschliesst",
+    "usage": "Verwendung",
+    "hook_mode": "Hook-Modus: liest stdin JSON, zeigt Benachrichtigung",
+    "setup": "Claude Code Hooks konfigurieren",
+    "test": "Testbenachrichtigung senden",
+    "config": "Konfiguration anzeigen oder aendern",
+    "uninstall": "Hooks aus Claude Code Einstellungen entfernen",
+    "help": "Diese Hilfemeldung anzeigen",
+    "version_flag": "Versionsnummer anzeigen",
+    "config_options": "Konfigurationsoptionen",
+    "config_lang": "Sprache festlegen (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "Benachrichtigungston aktivieren/deaktivieren",
+    "config_show": "Aktuelle Konfiguration anzeigen"
+  }
+}

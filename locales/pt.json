@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - Tarefa concluida",
+    "title_fallback": "Claude Code - Tarefa concluida",
+    "message": "Claude terminou e aguarda sua resposta",
+    "test_title": "claude-done - Notificacao de teste",
+    "test_message": "As notificacoes estao funcionando corretamente!"
+  },
+  "setup": {
+    "already_configured": "Os hooks do claude-done ja estao configurados.",
+    "success": "Os hooks do claude-done foram adicionados as configuracoes do Claude Code.",
+    "error": "Nao foi possivel configurar os hooks: {{error}}"
+  },
+  "uninstall": {
+    "success": "Os hooks do claude-done foram removidos das configuracoes do Claude Code.",
+    "not_found": "Nenhum hook do claude-done encontrado nas configuracoes do Claude Code.",
+    "error": "Nao foi possivel remover os hooks: {{error}}"
+  },
+  "config": {
+    "saved": "Configuracao salva.",
+    "current": "Configuracao atual:"
+  },
+  "cli": {
+    "description": "Notificacoes nativas do SO quando o Claude Code termina uma tarefa",
+    "usage": "Uso",
+    "hook_mode": "Modo hook: le JSON do stdin, mostra notificacao",
+    "setup": "Configurar os hooks do Claude Code",
+    "test": "Enviar uma notificacao de teste",
+    "config": "Ver ou alterar a configuracao",
+    "uninstall": "Remover os hooks das configuracoes do Claude Code",
+    "help": "Mostrar esta mensagem de ajuda",
+    "version_flag": "Mostrar numero da versao",
+    "config_options": "Opcoes de configuracao",
+    "config_lang": "Definir idioma (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "Ativar/desativar som de notificacao",
+    "config_show": "Mostrar configuracao atual"
+  }
+}

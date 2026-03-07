@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - Attivita completata",
+    "title_fallback": "Claude Code - Attivita completata",
+    "message": "Claude ha finito e attende la tua risposta",
+    "test_title": "claude-done - Notifica di test",
+    "test_message": "Le notifiche funzionano correttamente!"
+  },
+  "setup": {
+    "already_configured": "Gli hooks di claude-done sono gia configurati.",
+    "success": "Gli hooks di claude-done sono stati aggiunti alle impostazioni di Claude Code.",
+    "error": "Impossibile configurare gli hooks: {{error}}"
+  },
+  "uninstall": {
+    "success": "Gli hooks di claude-done sono stati rimossi dalle impostazioni di Claude Code.",
+    "not_found": "Nessun hook di claude-done trovato nelle impostazioni di Claude Code.",
+    "error": "Impossibile rimuovere gli hooks: {{error}}"
+  },
+  "config": {
+    "saved": "Configurazione salvata.",
+    "current": "Configurazione attuale:"
+  },
+  "cli": {
+    "description": "Notifiche native del SO quando Claude Code completa un'attivita",
+    "usage": "Utilizzo",
+    "hook_mode": "Modalita hook: legge JSON da stdin, mostra notifica",
+    "setup": "Configurare gli hooks di Claude Code",
+    "test": "Inviare una notifica di test",
+    "config": "Visualizzare o modificare la configurazione",
+    "uninstall": "Rimuovere gli hooks dalle impostazioni di Claude Code",
+    "help": "Mostrare questo messaggio di aiuto",
+    "version_flag": "Mostrare il numero di versione",
+    "config_options": "Opzioni di configurazione",
+    "config_lang": "Impostare la lingua (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "Attivare/disattivare il suono di notifica",
+    "config_show": "Mostrare la configurazione attuale"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "claude-done",
+  "version": "1.0.0",
+  "description": "Native OS notifications when Claude Code finishes a task",
+  "main": "src/notify.js",
+  "bin": {
+    "claude-done": "bin/claude-done.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "postinstall": "node bin/claude-done.js setup --silent"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-hooks",
+    "notification",
+    "desktop-notification",
+    "native-notification",
+    "toast",
+    "hooks",
+    "cli",
+    "productivity",
+    "developer-tools",
+    "cross-platform",
+    "windows",
+    "macos",
+    "linux",
+    "i18n",
+    "anthropic",
+    "ai-tools",
+    "terminal"
+  ],
+  "author": "dyshay",
+  "license": "MIT",
+  "homepage": "https://github.com/dyshay/claude-done#readme",
+  "bugs": {
+    "url": "https://github.com/dyshay/claude-done/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyshay/claude-done.git"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "locales/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}

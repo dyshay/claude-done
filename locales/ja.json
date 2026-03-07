@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - タスク完了",
+    "title_fallback": "Claude Code - タスク完了",
+    "message": "Claudeは完了し、あなたの応答を待っています",
+    "test_title": "claude-done - テスト通知",
+    "test_message": "通知は正常に動作しています！"
+  },
+  "setup": {
+    "already_configured": "claude-doneフックは既に設定されています。",
+    "success": "claude-doneフックがClaude Codeの設定に追加されました。",
+    "error": "フックを設定できませんでした: {{error}}"
+  },
+  "uninstall": {
+    "success": "claude-doneフックがClaude Codeの設定から削除されました。",
+    "not_found": "Claude Codeの設定にclaude-doneフックが見つかりませんでした。",
+    "error": "フックを削除できませんでした: {{error}}"
+  },
+  "config": {
+    "saved": "設定が保存されました。",
+    "current": "現在の設定:"
+  },
+  "cli": {
+    "description": "Claude Codeがタスクを完了した時のネイティブOS通知",
+    "usage": "使用法",
+    "hook_mode": "フックモード: stdinからJSONを読み取り、通知を表示",
+    "setup": "Claude Codeフックを設定",
+    "test": "テスト通知を送信",
+    "config": "設定を表示または変更",
+    "uninstall": "Claude Codeの設定からフックを削除",
+    "help": "このヘルプメッセージを表示",
+    "version_flag": "バージョン番号を表示",
+    "config_options": "設定オプション",
+    "config_lang": "言語を設定 (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "通知音の有効/無効",
+    "config_show": "現在の設定を表示"
+  }
+}

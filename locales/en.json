@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "{{project}} ({{type}}) - Task complete",
+    "title_fallback": "Claude Code - Task complete",
+    "message": "Claude has finished and is waiting for your response",
+    "test_title": "claude-done - Test notification",
+    "test_message": "Notifications are working correctly!"
+  },
+  "setup": {
+    "already_configured": "claude-done hooks are already configured.",
+    "success": "claude-done hooks have been added to Claude Code settings.",
+    "error": "Could not configure hooks: {{error}}"
+  },
+  "uninstall": {
+    "success": "claude-done hooks have been removed from Claude Code settings.",
+    "not_found": "No claude-done hooks found in Claude Code settings.",
+    "error": "Could not remove hooks: {{error}}"
+  },
+  "config": {
+    "saved": "Configuration saved.",
+    "current": "Current configuration:"
+  },
+  "cli": {
+    "description": "Native OS notifications when Claude Code finishes a task",
+    "usage": "Usage",
+    "hook_mode": "Hook mode: read stdin JSON, show notification",
+    "setup": "Configure Claude Code hooks",
+    "test": "Send a test notification",
+    "config": "View or change configuration",
+    "uninstall": "Remove hooks from Claude Code settings",
+    "help": "Show this help message",
+    "version_flag": "Show version number",
+    "config_options": "Config options",
+    "config_lang": "Set language (en, fr, es, de, pt, it, ja, zh)",
+    "config_sound": "Enable/disable notification sound",
+    "config_show": "Show current configuration"
+  }
+}
