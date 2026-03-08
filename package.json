@@ -1,6 +1,6 @@
 {
   "name": "claude-done",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Native OS notifications when Claude Code finishes a task",
   "main": "src/notify.js",
   "bin": {
